@@ -18,3 +18,11 @@ Run the following command in your terminal to scaffold a new project:
 
 ```bash
 npm create vite@latest
+
+```bash
+cd your-project-name
+npm install
+npm run dev
+
+
+#  🌐 http://localhost:5173
