@@ -32,7 +32,6 @@ npm run dev
 
 Follow these steps to set up **Tailwind CSS** with React:  
 
----
 
 ## ✅ 1. Install Tailwind CSS
 
@@ -73,3 +72,59 @@ In your src/index.css, add the following:
 @tailwind components;
 @tailwind utilities;
 ```
+
+# React App Structure Guide
+
+## App.jsx File Explanation
+
+`App.jsx` is the main component file in a React application. It typically serves as the root component that contains all other components in your application.
+
+### Rules for App.jsx
+
+1. **Capitalized Function Name**: 
+   - The component function name must start with a capital letter (PascalCase).
+   - Example: `function App() { ... }` ✅
+   - Not: `function app() { ... }` ❌
+
+2. **File Naming**:
+   - Should be named `App.jsx` (or `App.js` if not using JSX syntax explicitly)
+
+3. **Default Export**:
+   - Should export the component as default:
+     ```jsx
+     export default App;
+     ```
+
+4. **JSX Return**:
+   - Must return valid JSX (wrapped in a single parent element or Fragment  ```(<>...</>)``` )
+   - Example:
+     ```jsx
+     return (
+       <div>
+         {/* Your content */}
+       </div>
+     );
+     ```
+
+5. **Import Statements**:
+   - Place all imports at the top of the file
+   - React must be imported if using JSX:
+     ```jsx
+     import React from 'react';
+     ```
+
+## Basic App.jsx Template
+
+```jsx
+import React from 'react';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>My React App</h1>
+      {/* Other components go here */}
+    </div>
+  );
+}
+
+export default App;
