@@ -128,3 +128,7 @@ function App() {
 }
 
 export default App;
+
+```
+## Must read react docs for deeper understanding of react components and JSX syntax. 
+### Click to visit [React Docs](https://react.dev/reference/react)
