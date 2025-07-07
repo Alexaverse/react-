@@ -132,3 +132,11 @@ export default App;
 ```
 ## Must read react docs for deeper understanding of react components and JSX syntax. 
 ### Click to visit [React Docs](https://react.dev/reference/react)
+
+
+## To setup react-Router-DOM
+```
+npm i react-router-dom
+```
+
+### when ```<a>``` tag is used it reloads the complete page that's why we import Link and NavLink from 'react-router-dom' and use it 
